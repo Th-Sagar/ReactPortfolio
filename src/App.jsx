@@ -1,6 +1,8 @@
 import Banner from "./components/banner/Banner";
 import Features from "./components/features/Features";
 import Navbar from "./components/navbar/Navbar"
+import Project from "./components/projects/Project";
+import Resume from "./components/resume/Resume";
 
 function App() {
   
@@ -11,6 +13,8 @@ function App() {
         <Navbar />
         <Banner/>
         <Features/>
+        <Project/>
+        <Resume/>
       </div>
     </div>
   );
