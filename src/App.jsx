@@ -1,10 +1,13 @@
 import Banner from "./components/banner/Banner";
 import Contact from "./components/contact/Contact";
 import Features from "./components/features/Features";
+import Last from "./components/last/Last";
+import LastBottom from "./components/last/LastBottom";
 import Navbar from "./components/navbar/Navbar"
 import Project from "./components/projects/Project";
 import Resume from "./components/resume/Resume";
 import Testimonial from "./components/testimonial/Testimonial";
+
 
 function App() {
   
@@ -20,6 +23,10 @@ function App() {
         <Resume />
         <Testimonial/>
         <Contact/>
+        <Last/>
+        <LastBottom/>
+       
+        
       </div>
     </div>
   );
