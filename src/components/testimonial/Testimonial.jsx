@@ -100,8 +100,8 @@ const Testimonial = () => {
       <div className="max-w-6xl mx-auto  ">
         <Slider {...settings}>
           <div className="w-full ">
-            <div className="w-full h-[500px] flex justify-between">
-              <div className="w-[35%] flex flex-col gap-8 h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne justify-center p-8 rounded-lg">
+            <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
+              <div className="  w-full lgl:w-[35%] flex flex-col gap-8 h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne justify-center p-8 rounded-lg">
                 <img
                   className="h-72 rounded-lg object-cover"
                   src={testimonialOne}
@@ -120,8 +120,8 @@ const Testimonial = () => {
                   </p>
                 </div>
               </div>
-              <div className="w-[60%] h-full flex flex-col justify-between ">
-                <img className="w-[20%]" src={quote} alt="quote" />
+              <div className="w-full  lgl:w-[60%] h-full flex flex-col justify-between ">
+                <img className="w-20 lgl:w-32" src={quote} alt="quote" />
 
                 <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] flex flex-col gap-8 justify-center p-8 rounded-lg shadow-shadowOne">
                   <div className="flex justify-between items-center py-6 border-b-2 border-b-gray-900">
@@ -155,8 +155,8 @@ const Testimonial = () => {
           </div>
 
           <div className="w-full ">
-            <div className="w-full h-[500px] flex justify-between">
-              <div className="w-[35%] flex flex-col gap-8 h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne justify-center p-8 rounded-lg">
+            <div className="w-full h-auto flex  flex-col lgl:flex-row justify-between">
+              <div className=" w-full lgl:w-[35%] flex flex-col gap-8 h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne justify-center p-8 rounded-lg">
                 <img
                   className="h-72 rounded-lg object-cover"
                   src={testimonialTwo}
@@ -175,8 +175,8 @@ const Testimonial = () => {
                   </p>
                 </div>
               </div>
-              <div className="w-[60%] h-full flex flex-col justify-between ">
-                <img className="w-[20%]" src={quote} alt="quote" />
+              <div className=" w-full lgl:w-[60%] h-full flex flex-col justify-between ">
+                <img className="w-20 lgl:w-32" src={quote} alt="quote" />
 
                 <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] flex flex-col gap-8 justify-center p-8 rounded-lg shadow-shadowOne">
                   <div className="flex justify-between items-center py-6 border-b-2 border-b-gray-900">
@@ -210,8 +210,8 @@ const Testimonial = () => {
           </div>
 
           <div className="w-full ">
-            <div className="w-full h-[500px] flex justify-between">
-              <div className="w-[35%] flex flex-col gap-8 h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne justify-center p-8 rounded-lg">
+            <div className="w-full h-auto flex  flex-col lgl:flex-row justify-between">
+              <div className=" w-full lgl:w-[35%] flex flex-col gap-8 h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne justify-center p-8 rounded-lg">
                 <img
                   className="h-72 rounded-lg object-cover"
                   src={testimonialOne}
@@ -230,8 +230,8 @@ const Testimonial = () => {
                   </p>
                 </div>
               </div>
-              <div className="w-[60%] h-full flex flex-col justify-between ">
-                <img className="w-[20%]" src={quote} alt="quote" />
+              <div className="w-full lgl:w-[60%] h-full flex flex-col justify-between ">
+                <img className="w-20 lgl:w-32" src={quote} alt="quote" />
 
                 <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] flex flex-col gap-8 justify-center p-8 rounded-lg shadow-shadowOne">
                   <div className="flex justify-between items-center py-6 border-b-2 border-b-gray-900">
