@@ -2,7 +2,7 @@ import { contactImg } from "../../assets";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 const ContactLeft = () => {
   return (
-    <div className="w-[35%] flex flex-col gap-8 h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne justify-center p-8 rounded-lg">
+    <div className="w-full lgl:w-[35%] flex flex-col gap-8 h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne justify-center p-4 lgl:p-8 rounded-lg">
       <img
         className="w-full h-64 object-cover rounded-lg mb-2"
         src={contactImg}

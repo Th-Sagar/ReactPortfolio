@@ -5,7 +5,7 @@ const Title = ({ title, des }) => {
         {title}
       </h3>
 
-      <h1 className="text-5xl text-gray-300 font-bold capitalize">{des}</h1>
+      <h1 className="text-4xl md:text-5xl text-gray-300 font-bold capitalize">{des}</h1>
     </div>
   );
 };

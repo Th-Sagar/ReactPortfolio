@@ -4,7 +4,7 @@ import { logo } from "../../assets";
 
 const Last = () => {
   return (
-    <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-4 gap-20">
+    <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid  grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-20">
       <div className="w-full h-full  flex flex-col gap-8 ">
         <img className="w-32" src={logo} alt="logo" />
         <div className="flex gap-4">
@@ -93,7 +93,7 @@ const Last = () => {
             {" "}
             <span className="w-full text-lg hover:text-designColor duration-300 cursor-pointer relative group">
               {" "}
-              Terms of service {" "}
+              Terms of service{" "}
               <span className="absolute h-[1px] w-full inline-flex bg-designColor -bottom-1 left-0 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>{" "}
           </li>
@@ -157,7 +157,7 @@ const Last = () => {
             {" "}
             <span className="w-full text-lg hover:text-designColor duration-300 cursor-pointer relative group">
               {" "}
-              Open Source {" "}
+              Open Source{" "}
               <span className="absolute h-[1px] w-full inline-flex bg-designColor -bottom-1 left-0 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>{" "}
           </li>
