@@ -1,4 +1,6 @@
-import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
+import { AiFillGithub } from "react-icons/ai";
+
 import { logo } from "../../assets";
 
 
@@ -8,15 +10,30 @@ const Last = () => {
       <div className="w-full h-full  flex flex-col gap-8 ">
         <img className="w-32" src={logo} alt="logo" />
         <div className="flex gap-4">
-          <span className="bannerIcon">
+          <a
+            href="https://www.facebook.com/profile.php?id=100052872153816"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bannerIcon"
+          >
             <FaFacebookF />
-          </span>
-          <span className="bannerIcon">
-            <FaTwitter />
-          </span>
-          <span className="bannerIcon">
+          </a>
+          <a
+            href="https://github.com/Th-Sagar"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bannerIcon"
+          >
+            <AiFillGithub />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/sagar-thapa-6470a0218/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bannerIcon"
+          >
             <FaLinkedinIn />
-          </span>
+          </a>
         </div>
       </div>
       <div className="w-full h-full  ">
