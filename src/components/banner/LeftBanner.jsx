@@ -1,21 +1,7 @@
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
-import {
-  FaAngular,
-  FaBootstrap,
-  FaCss3,
-  FaFacebookF,
-  FaHtml5,
-  FaJava,
-  FaJs,
-  FaLinkedinIn,
-  FaNodeJs,
-  FaReact,
-} from "react-icons/fa";
-import { SiTailwindcss, SiNextdotjs, SiGreensock } from "react-icons/si";
+import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { AiFillGithub } from "react-icons/ai";
-import { BiLogoSpringBoot } from "react-icons/bi";
-import { DiMongodb, DiPostgresql } from "react-icons/di";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({

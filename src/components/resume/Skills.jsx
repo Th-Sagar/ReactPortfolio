@@ -1,218 +1,20 @@
 import { motion } from "framer-motion";
-import ResumeCard from "./ResumeCard";
+import SkillCard from "./SkillCard";
+import {
+  FaAngular,
+  FaCss3,
+  FaHtml5,
+  FaJava,
+  FaJs,
+  FaNodeJs,
+  FaReact,
+} from "react-icons/fa";
+import { SiNextdotjs } from "react-icons/si";
+import { BiLogoSpringBoot } from "react-icons/bi";
+import { DiMongodb, DiPostgresql } from "react-icons/di";
 
 const Skills = () => {
   return (
-    // <motion.div
-    //   initial={{ opacity: 0 }}
-    //   animate={{ opacity: 1, transition: { duration: 0.5 } }}
-    //   className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20"
-    // >
-    //   {/* <div className="w-full lgl:w-1/2">
-    //     <div className="py-12 font-titleFont flex flex-col gap-4">
-    //       <p className="text-sm text-designColor tracking-[4px] uppercase ">
-    //         {" "}
-    //         Features
-    //       </p>
-
-    //       <h2 className="text-3xl md:text-4xl  font-bold uppercase">
-    //         Design Skill
-    //       </h2>
-    //     </div>
-    //     <div className="mt-14 w-full flex flex-col  gap-6 ">
-    //       <div className="overflow-x-hidden">
-    //         <p className="text-sm uppercase font-medium">PHOTOSHOT</p>
-
-    //         <span className="w-full h-2 bgOpacity inline-flex rounded-md mt-2">
-    //           <motion.span
-    //             initial={{ x: "-100%", opacity: 0 }}
-    //             animate={{ x: 0, opacity: 1 }}
-    //             transition={{ duration: 0.5, delay: 0.5 }}
-    //             className="w-full h-full relative bg-gradient-to-r from-blue-600  via-pink-500 to-red-500 rounded-md"
-    //           >
-    //             <span className="absolute -top-7 right-0">100%</span>
-    //           </motion.span>
-    //         </span>
-    //       </div>
-
-    //       <div className="overflow-x-hidden">
-    //         <p className="text-sm uppercase font-medium">FIGMA</p>
-
-    //         <span className="w-full h-2 bgOpacity inline-flex rounded-md mt-2">
-    //           <motion.span
-    //             initial={{ x: "-100%", opacity: 0 }}
-    //             animate={{ x: 0, opacity: 1 }}
-    //             transition={{ duration: 0.5, delay: 0.5 }}
-    //             className="w-[90%] h-full relative bg-gradient-to-r from-blue-600  via-pink-500 to-red-500 rounded-md"
-    //           >
-    //             <span className="absolute -top-7 right-0">90%</span>
-    //           </motion.span>
-    //         </span>
-    //       </div>
-
-    //       <div className="overflow-x-hidden">
-    //         <p className="text-sm uppercase font-medium">ADOBE XD</p>
-
-    //         <span className="w-full h-2 bgOpacity inline-flex rounded-md mt-2">
-    //           <motion.span
-    //             initial={{ x: "-100%", opacity: 0 }}
-    //             animate={{ x: 0, opacity: 1 }}
-    //             transition={{ duration: 0.5, delay: 0.5 }}
-    //             className="w-[60%] h-full relative bg-gradient-to-r from-blue-600  via-pink-500 to-red-500 rounded-md"
-    //           >
-    //             <span className="absolute -top-7 right-0">60%</span>
-    //           </motion.span>
-    //         </span>
-    //       </div>
-
-    //       <div className="overflow-x-hidden">
-    //         <p className="text-sm uppercase font-medium">ADOBE ILLUSTRATOR</p>
-
-    //         <span className="w-full h-2 bgOpacity inline-flex rounded-md mt-2">
-    //           <motion.span
-    //             initial={{ x: "-100%", opacity: 0 }}
-    //             animate={{ x: 0, opacity: 1 }}
-    //             transition={{ duration: 0.5, delay: 0.5 }}
-    //             className="w-[70%] h-full relative bg-gradient-to-r from-blue-600  via-pink-500 to-red-500 rounded-md"
-    //           >
-    //             <span className="absolute -top-7 right-0">70%</span>
-    //           </motion.span>
-    //         </span>
-    //       </div>
-
-    //       <div className="overflow-x-hidden">
-    //         <p className="text-sm uppercase font-medium">DESIGN</p>
-
-    //         <span className="w-full h-2 bgOpacity inline-flex rounded-md mt-2">
-    //           <motion.span
-    //             initial={{ x: "-100%", opacity: 0 }}
-    //             animate={{ x: 0, opacity: 1 }}
-    //             transition={{ duration: 0.5, delay: 0.5 }}
-    //             className="w-[95%] h-full relative bg-gradient-to-r from-blue-600  via-pink-500 to-red-500 rounded-md"
-    //           >
-    //             <span className="absolute -top-7 right-0">95%</span>
-    //           </motion.span>
-    //         </span>
-    //       </div>
-    //     </div>
-    //   </div> */}
-
-    //   <div className="w-full lgl:w-1/2">
-    //     <div className="py-12 font-titleFont flex flex-col gap-4">
-    //       <p className="text-sm text-designColor tracking-[4px] uppercase ">
-    //         {" "}
-    //         Features
-    //       </p>
-
-    //       <h2 className="text-3xl md:text-4xl  font-bold">Development Skill</h2>
-    //     </div>
-    //     <div className="mt-14 w-full flex flex-col  gap-6 ">
-    //       <div className="overflow-x-hidden">
-    //         <p className="text-sm uppercase font-medium">HTML 5</p>
-
-    //         <span className="w-full h-2 bgOpacity inline-flex rounded-md mt-2">
-    //           <motion.span
-    //             initial={{ x: "-100%", opacity: 0 }}
-    //             animate={{ x: 0, opacity: 1 }}
-    //             transition={{ duration: 0.5, delay: 0.5 }}
-    //             className="w-full h-full relative bg-gradient-to-r from-blue-600  via-pink-500 to-red-500 rounded-md"
-    //           >
-    //             <span className="absolute -top-7 right-0">100%</span>
-    //           </motion.span>
-    //         </span>
-    //       </div>
-
-    //       <div className="overflow-x-hidden">
-    //         <p className="text-sm uppercase font-medium">CSS3</p>
-
-    //         <span className="w-full h-2 bgOpacity inline-flex rounded-md mt-2">
-    //           <motion.span
-    //             initial={{ x: "-100%", opacity: 0 }}
-    //             animate={{ x: 0, opacity: 1 }}
-    //             transition={{ duration: 0.5, delay: 0.5 }}
-    //             className="w-[95%] h-full relative bg-gradient-to-r from-blue-600  via-pink-500 to-red-500 rounded-md"
-    //           >
-    //             <span className="absolute -top-7 right-0">95%</span>
-    //           </motion.span>
-    //         </span>
-    //       </div>
-
-    //       <div className="overflow-x-hidden">
-    //         <p className="text-sm uppercase font-medium">JAVASCRIPT</p>
-
-    //         <span className="w-full h-2 bgOpacity inline-flex rounded-md mt-2">
-    //           <motion.span
-    //             initial={{ x: "-100%", opacity: 0 }}
-    //             animate={{ x: 0, opacity: 1 }}
-    //             transition={{ duration: 0.5, delay: 0.5 }}
-    //             className="w-[85%] h-full relative bg-gradient-to-r from-blue-600  via-pink-500 to-red-500 rounded-md"
-    //           >
-    //             <span className="absolute -top-7 right-0">85%</span>
-    //           </motion.span>
-    //         </span>
-    //       </div>
-    //       <div className="overflow-x-hidden">
-    //         <p className="text-sm uppercase font-medium">REACT</p>
-
-    //         <span className="w-full h-2 bgOpacity inline-flex rounded-md mt-2">
-    //           <motion.span
-    //             initial={{ x: "-100%", opacity: 0 }}
-    //             animate={{ x: 0, opacity: 1 }}
-    //             transition={{ duration: 0.5, delay: 0.5 }}
-    //             className="w-[80%] h-full relative bg-gradient-to-r from-blue-600  via-pink-500 to-red-500 rounded-md"
-    //           >
-    //             <span className="absolute -top-7 right-0">80%</span>
-    //           </motion.span>
-    //         </span>
-    //       </div>
-
-    //       <div className="overflow-x-hidden">
-    //         <p className="text-sm uppercase font-medium">ANGULAR</p>
-
-    //         <span className="w-full h-2 bgOpacity inline-flex rounded-md mt-2">
-    //           <motion.span
-    //             initial={{ x: "-100%", opacity: 0 }}
-    //             animate={{ x: 0, opacity: 1 }}
-    //             transition={{ duration: 0.5, delay: 0.5 }}
-    //             className="w-[50%] h-full relative bg-gradient-to-r from-blue-600  via-pink-500 to-red-500 rounded-md"
-    //           >
-    //             <span className="absolute -top-7 right-0">50%</span>
-    //           </motion.span>
-    //         </span>
-    //       </div>
-    //       <div className="overflow-x-hidden">
-    //         <p className="text-sm uppercase font-medium">JAVA</p>
-
-    //         <span className="w-full h-2 bgOpacity inline-flex rounded-md mt-2">
-    //           <motion.span
-    //             initial={{ x: "-100%", opacity: 0 }}
-    //             animate={{ x: 0, opacity: 1 }}
-    //             transition={{ duration: 0.5, delay: 0.5 }}
-    //             className="w-[90%] h-full relative bg-gradient-to-r from-blue-600  via-pink-500 to-red-500 rounded-md"
-    //           >
-    //             <span className="absolute -top-7 right-0">90%</span>
-    //           </motion.span>
-    //         </span>
-    //       </div>
-
-    //       <div className="overflow-x-hidden">
-    //         <p className="text-sm uppercase font-medium">SPRING-BOOT</p>
-
-    //         <span className="w-full h-2 bgOpacity inline-flex rounded-md mt-2">
-    //           <motion.span
-    //             initial={{ x: "-100%", opacity: 0 }}
-    //             animate={{ x: 0, opacity: 1 }}
-    //             transition={{ duration: 0.5, delay: 0.5 }}
-    //             className="w-[80%] h-full relative bg-gradient-to-r from-blue-600  via-pink-500 to-red-500 rounded-md"
-    //           >
-    //             <span className="absolute -top-7 right-0">80%</span>
-    //           </motion.span>
-    //         </span>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </motion.div>
-
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
@@ -230,25 +32,54 @@ const Skills = () => {
 
           <h2 className="text-3xl md:text-4xl font-bold">Skills</h2>
         </div>
-        <div className=" mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <ResumeCard
-            title="Bachelor (BSc. CSIT)"
-            subTitle="Trinity International College (2020-2025)"
-            result="Processing"
-            des="A bachelor's degree or baccalaureate is an undergraduate academic degree awarded by colleges and universities upon completion of a course of study lasting three to seven years. In some institutions and educational systems, some bachelor's degrees can only be taken as graduate or postgraduate degrees after a first degree has been completed."
-          />
-          <ResumeCard
-            title="+2 Computer Science "
-            subTitle="Oxford College Of Engineering & Management (2017 - 2019) "
-            result="3.85/4.00"
-            des=" Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education, third-level or tertiary education, is an optional final stage of formal learning that occurs after completion of secondary education."
-          />
-          <ResumeCard
-            title="SEE "
-            subTitle="Marigold English Boarding School (2012-2017) "
-            result="3.95/4.00"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
-          />
+        <div className="flex justify-between gap-60 md:flex-row flex-col">
+          <section>
+            <div
+              className="py-6
+         lgl:py-12 font-titleFont"
+            >
+              <h2 className="text-3xl md:text-4xl font-bold">Frontend</h2>
+            </div>
+            <div className="mt-6 lg:mt-14 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-14">
+              <SkillCard title="HTML" logo={<FaHtml5 size={30} />} />
+              <SkillCard title="CSS" logo={<FaCss3 size={30} />} />
+              <SkillCard title="JAVASCRIPT" logo={<FaJs size={30} />} />
+              <SkillCard title="REACT" logo={<FaReact size={30} />} />
+              <SkillCard title="NEXT" logo={<SiNextdotjs size={30} />} />
+              <SkillCard title="ANGULAR" logo={<FaAngular size={30} />} />
+            </div>
+          </section>
+
+          <section>
+            <div
+              className="py-6
+         lgl:py-12 font-titleFont"
+            >
+              <h2 className="text-3xl md:text-4xl font-bold">Backend</h2>
+            </div>
+            <div className="mt-6 lg:mt-14 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-14">
+              <SkillCard title="JAVA" logo={<FaJava size={30} />} />
+              <SkillCard
+                title="SPRING BOOT"
+                logo={<BiLogoSpringBoot size={30} />}
+              />
+              <SkillCard title="NODEJS" logo={<FaNodeJs size={30} />} />
+            </div>
+          </section>
+
+          <section>
+            <div
+              className="py-6
+         lgl:py-12 font-titleFont"
+            >
+              <h2 className="text-3xl md:text-4xl font-bold">Database</h2>
+            </div>
+
+            <div className="mt-6 lg:mt-14 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-14">
+              <SkillCard title="MONGODB" logo={<DiMongodb size={30} />} />
+              <SkillCard title="POSTGRESQL" logo={<DiPostgresql size={30} />} />
+            </div>
+          </section>
         </div>
       </div>
 

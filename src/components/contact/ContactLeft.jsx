@@ -3,11 +3,6 @@ import { AiFillGithub } from "react-icons/ai";
 const ContactLeft = () => {
   return (
     <div className="w-full lgl:w-[35%] flex flex-col gap-8 h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne justify-center p-4 lgl:p-8 rounded-lg">
-      {/* <img
-        className="w-full h-64 object-cover rounded-lg mb-2"
-        src={contactImg}
-        alt="contactImage"
-      /> */}
       <div className="flex flex-col gap-4">
         <h3 className="text-3xl font-bold text-white ">Sagar Thapa</h3>
 
