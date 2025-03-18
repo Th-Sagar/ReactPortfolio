@@ -25,12 +25,10 @@ const Skills = () => {
           className="py-6
        lgl:py-12 font-titleFont flex flex-col gap-4"
         >
-          <p className="text-sm text-designColor tracking-[4px] ">
+          <ph2 className="text-3xl font-bold text-designColor tracking-[4px] ">
             {" "}
-            2020 - Present
-          </p>
-
-          <h2 className="text-3xl md:text-4xl font-bold">Skills</h2>
+            Technical Skills
+          </ph2>
         </div>
         <div className="flex justify-between gap-60 md:flex-row flex-col">
           <section>
@@ -41,12 +39,36 @@ const Skills = () => {
               <h2 className="text-3xl md:text-4xl font-bold">Frontend</h2>
             </div>
             <div className="mt-6 lg:mt-14 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-14">
-              <SkillCard title="HTML" logo={<FaHtml5 size={30} />} />
-              <SkillCard title="CSS" logo={<FaCss3 size={30} />} />
-              <SkillCard title="JAVASCRIPT" logo={<FaJs size={30} />} />
-              <SkillCard title="REACT" logo={<FaReact size={30} />} />
-              <SkillCard title="NEXT" logo={<SiNextdotjs size={30} />} />
-              <SkillCard title="ANGULAR" logo={<FaAngular size={30} />} />
+              <SkillCard
+                title="HTML"
+                logo={<FaHtml5 size={30} />}
+                textColor="text-red-500"
+              />
+              <SkillCard
+                title="CSS"
+                logo={<FaCss3 size={30} />}
+                textColor="text-blue-500"
+              />
+              <SkillCard
+                title="JAVASCRIPT"
+                logo={<FaJs size={30} />}
+                textColor="text-yellow-500"
+              />
+              <SkillCard
+                title="REACT"
+                logo={<FaReact size={30} />}
+                textColor="text-blue-600"
+              />
+              <SkillCard
+                title="NEXT"
+                logo={<SiNextdotjs size={30} />}
+                textColor="text-gray-100"
+              />
+              <SkillCard
+                title="ANGULAR"
+                logo={<FaAngular size={30} />}
+                textColor="text-red-700"
+              />
             </div>
           </section>
 
@@ -58,12 +80,21 @@ const Skills = () => {
               <h2 className="text-3xl md:text-4xl font-bold">Backend</h2>
             </div>
             <div className="mt-6 lg:mt-14 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-14">
-              <SkillCard title="JAVA" logo={<FaJava size={30} />} />
+              <SkillCard
+                title="JAVA"
+                logo={<FaJava size={30} />}
+                textColor="text-red-800"
+              />
               <SkillCard
                 title="SPRING BOOT"
                 logo={<BiLogoSpringBoot size={30} />}
+                textColor="text-green-500"
               />
-              <SkillCard title="NODEJS" logo={<FaNodeJs size={30} />} />
+              <SkillCard
+                title="NODEJS"
+                logo={<FaNodeJs size={30} />}
+                textColor="text-green-700"
+              />
             </div>
           </section>
 
@@ -76,8 +107,16 @@ const Skills = () => {
             </div>
 
             <div className="mt-6 lg:mt-14 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-14">
-              <SkillCard title="MONGODB" logo={<DiMongodb size={30} />} />
-              <SkillCard title="POSTGRESQL" logo={<DiPostgresql size={30} />} />
+              <SkillCard
+                title="MONGODB"
+                logo={<DiMongodb size={30} />}
+                textColor="text-green-800"
+              />
+              <SkillCard
+                title="POSTGRESQL"
+                logo={<DiPostgresql size={30} />}
+                textColor="text-blue-600"
+              />
             </div>
           </section>
         </div>

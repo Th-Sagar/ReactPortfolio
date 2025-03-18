@@ -39,7 +39,7 @@ const LeftBanner = () => {
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between ">
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
-            Find Me In
+            Find Me On
           </h2>
 
           <div className="flex gap-4">
