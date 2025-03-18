@@ -1,12 +1,25 @@
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
-import { FaFacebookF, FaLinkedinIn, FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import {
+  FaAngular,
+  FaBootstrap,
+  FaCss3,
+  FaFacebookF,
+  FaHtml5,
+  FaJava,
+  FaJs,
+  FaLinkedinIn,
+  FaNodeJs,
+  FaReact,
+} from "react-icons/fa";
+import { SiTailwindcss, SiNextdotjs, SiGreensock } from "react-icons/si";
 import { AiFillGithub } from "react-icons/ai";
+import { BiLogoSpringBoot } from "react-icons/bi";
+import { DiMongodb, DiPostgresql } from "react-icons/di";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["Professional Coder.", "Full Stack Developer.", "UI Designer."],
+    words: ["Professional Coder.", "Full Stack Developer."],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,
@@ -32,9 +45,9 @@ const LeftBanner = () => {
         </h2>
 
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I use animation as a third dimension by which to simplify experiences
-          and kuiding thro each and every interaction. I'm not adding motion
-          just to spruce things up, but doing it in ways that.
+          I am a full-stack developer (BSc.CSIT, 8th semester) skilled in React,
+          Redux Toolkit, TypeScript, Angular, Node.js, Express, Java, Spring
+          Boot, MongoDB, and PostgreSQL.
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between ">
@@ -72,25 +85,67 @@ const LeftBanner = () => {
           </div>
         </div>
 
-        <div>
+        {/* <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
             BEST SKILL ON
           </h2>
-          <div className="flex gap-4">
+          <div className="grid grid-cols-5 gap-4">
+            <span className="bannerIcon">
+              <FaHtml5 />
+            </span>
+
+            <span className="bannerIcon">
+              <FaCss3 />
+            </span>
+
+            <span className="bannerIcon">
+              <FaBootstrap />
+            </span>
+
+            <span className="bannerIcon">
+              <SiTailwindcss />
+            </span>
+
+            <span className="bannerIcon">
+              <FaJs />
+            </span>
+
+            <span className="bannerIcon">
+              <SiGreensock />
+            </span>
+
             <span className="bannerIcon">
               <FaReact />
             </span>
             <span className="bannerIcon">
               <SiNextdotjs />
             </span>
+
             <span className="bannerIcon">
-              <SiTailwindcss />
+              <FaAngular />
             </span>
+
             <span className="bannerIcon">
-              <SiFigma />
+              <FaJava />
+            </span>
+
+            <span className="bannerIcon">
+              <BiLogoSpringBoot />
+            </span>
+
+            <span className="bannerIcon">
+              <FaNodeJs />
+            </span>
+
+            <span className="bannerIcon">
+              <DiPostgresql />
+            </span>
+
+            <span className="bannerIcon">
+              <DiMongodb />
             </span>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

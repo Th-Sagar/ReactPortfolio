@@ -1,14 +1,13 @@
-import { contactImg } from "../../assets";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { AiFillGithub } from "react-icons/ai";
 const ContactLeft = () => {
   return (
     <div className="w-full lgl:w-[35%] flex flex-col gap-8 h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne justify-center p-4 lgl:p-8 rounded-lg">
-      <img
+      {/* <img
         className="w-full h-64 object-cover rounded-lg mb-2"
         src={contactImg}
         alt="contactImage"
-      />
+      /> */}
       <div className="flex flex-col gap-4">
         <h3 className="text-3xl font-bold text-white ">Sagar Thapa</h3>
 
@@ -17,10 +16,9 @@ const ContactLeft = () => {
         </p>
 
         <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
-          aliquam nihil veniam commodi deserunt expedita nesciunt voluptatem
-          reprehenderit est repellendus modi, quae inventore delectus labore
-          reiciendis sed molestias dolorem consequuntur odio harum eaque, ut ab.
+          I am a full-stack developer (BSc.CSIT, 8th semester) skilled in React,
+          Redux Toolkit, TypeScript, Angular, Node.js, Express, Java, Spring
+          Boot, MongoDB, and PostgreSQL.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">9812230600</span>

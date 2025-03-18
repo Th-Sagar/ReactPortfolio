@@ -1,35 +1,24 @@
 import Banner from "./components/banner/Banner";
 import Contact from "./components/contact/Contact";
-import Features from "./components/features/Features";
-import Last from "./components/last/Last";
 import LastBottom from "./components/last/LastBottom";
-import Navbar from "./components/navbar/Navbar"
+import Navbar from "./components/navbar/Navbar";
 import Project from "./components/projects/Project";
 import Resume from "./components/resume/Resume";
-import Testimonial from "./components/testimonial/Testimonial";
-
 
 function App() {
-  
-
   return (
     <div className="w-full h-auto bg-bodyColor text-lightText px-4">
       <Navbar />
 
       <div className="max-w-screen-xl mx-auto">
         <Banner />
-        <Features />
         <Project />
         <Resume />
-        <Testimonial/>
-        <Contact/>
-        <Last/>
-        <LastBottom/>
-       
-        
+        <Contact />
+        <LastBottom />
       </div>
     </div>
   );
 }
 
-export default App
+export default App;

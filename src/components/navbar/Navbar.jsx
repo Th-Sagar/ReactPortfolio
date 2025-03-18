@@ -44,15 +44,13 @@ const Navbar = () => {
 
         {showMenu && (
           <div className="w-[80%] md:hidden h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
-            <div className="flex flex-col gap-8 py-2 relative">
+            <div className="flex flex-col  gap-8 py-2 relative">
               <div>
                 <img className="w-32" src={Portlogo} alt="logo" />
-                <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Suscipit quaerat praesentium necessitatibus sunt ab quae
-                  reprehenderit deserunt voluptatibus, eos in saepe dignissimos
-                  temporibus est deleniti ex, perferendis, ullam error magnam
-                  quasi. Modi, tempora explicabo!
+                <p className="text-sm text-gray-400 mt-5">
+                  I am a full-stack developer (BSc.CSIT, 8th semester) skilled
+                  in React, Redux Toolkit, TypeScript, Angular, Node.js,
+                  Express, Java, Spring Boot, MongoDB, and PostgreSQL.
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
