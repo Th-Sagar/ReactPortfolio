@@ -16,7 +16,7 @@ This portfolio is built with **Vite** as the frontend tool. It features sections
 
 - **Frontend**: Vite, React, TailwindCSS
 - **Form Handling**: Formspree (for form submission)
-- **Others**: GitHub Pages for hosting (or other services you might be using)
+- **Others**: Netlify for hosting
 
 ## How to Run Locally
 
@@ -25,13 +25,13 @@ To run this portfolio locally on your machine, follow these steps:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/Th-Sagar/portfolio.git
+   git clone https://github.com/Th-Sagar/ReactPortfolio.git
    ```
 
 2. **Navigate to the project directory**:
 
    ```bash
-   cd portfolio
+   cd ReactPortfolio
    ```
 
 3. **Install dependencies**:
@@ -44,7 +44,7 @@ To run this portfolio locally on your machine, follow these steps:
    ```bash
    npm run dev
    ```
-   This will start the app on `http://localhost:3000`.
+   This will start the app on `http://localhost:5173`.
 
 ## Live Demo
 
@@ -59,8 +59,8 @@ You can download my resume from the **[Resume PDF](https://the-sagar.netlify.app
 
 Feel free to reach out to me through the contact form on my portfolio. Alternatively, you can connect with me on:
 
-- **Email**: sagarthapa@example.com
-- **LinkedIn**: [linkedin.com/in/sagarthapa](https://linkedin.com/in/sagarthapa)
+- **Email**: sagarthapa98122@gmail.com
+- **LinkedIn**: [linkedin.com/in/sagarthapa](https://www.linkedin.com/in/sagar-thapa-6470a0218/)
 - **GitHub**: [github.com/Th-Sagar](https://github.com/Th-Sagar)
 
 ## Contributing
