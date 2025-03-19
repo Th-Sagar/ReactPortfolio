@@ -1,5 +1,4 @@
 const SkillCard = ({ title, logo, textColor }) => {
-  console.log(textColor);
   return (
     <div className="w-full group flex ">
       <div className="w-10 h-[6px] bgOpacity mt-16 relative">
