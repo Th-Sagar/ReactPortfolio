@@ -1,13 +1,13 @@
 const RightBanner = () => {
   return (
-    <div className="w-full lgl:w-1/2 flex relative justify-center items-center">
+    <div className="w-full md:w-1/2 flex relative justify-center items-center">
       <img
-        className="w-[300px] h-[400px]  lgl:w-[500px] lgl:h-[680px] z-10"
-        src="src\assets\images\Port.png"
+        className="w-[70%] max-w-[300px] h-auto md:max-w-[400px] lg:max-w-[500px] z-10"
+        src="src/assets/images/Port.png"
         alt="bannerImg"
       />
 
-      <div className="absolute bottom-0 w-[350px] h-[150px] lgl:w-[500px] lgl:h-[300px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center"></div>
+      {/* <div className="absolute bottom-0 w-[80%] max-w-[350px] h-[120px] md:max-w-[400px] lg:max-w-[500px] md:h-[150px] lg:h-[200px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne flex justify-center items-center"></div> */}
     </div>
   );
 };

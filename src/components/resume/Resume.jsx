@@ -65,8 +65,6 @@ const Resume = () => {
       </div>
       {educationData && <Education />}
       {skillData && <Skills />}
-      {/* {experienceData && <Experience />}
-      {achievementsData && <Achievements />} */}
     </section>
   );
 };
