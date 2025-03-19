@@ -35,19 +35,22 @@ const Contact = () => {
       seterrMsg("Message is required");
     } else {
       try {
-        const response = await fetch("http://localhost:9090/api/v1/add", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            fullName,
-            email,
-            number,
-            subject,
-            message,
-          }),
-        });
+        const response = await fetch(
+          "https://portfolio-spring-n6vj.onrender.com/api/v1/add",
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+              fullName,
+              email,
+              number,
+              subject,
+              message,
+            }),
+          }
+        );
 
         const data = await response.json();
 
