@@ -1,9 +1,11 @@
+import { Port } from "../../assets";
+
 const RightBanner = () => {
   return (
     <div className="w-full md:w-1/2 flex relative justify-center items-center">
       <img
         className="w-[70%] max-w-[300px] h-auto md:max-w-[400px] lg:max-w-[500px] z-10"
-        src="src/assets/images/Port.png"
+        src={Port}
         alt="bannerImg"
       />
 
